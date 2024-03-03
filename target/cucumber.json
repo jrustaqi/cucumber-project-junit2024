@@ -1,0 +1,366 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3122827800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AddCustomerStepDefination.initMethod()"
+            }
+          }
+        ],
+        "line": 27,
+        "name": "User should be able to add new customer",
+        "description": "",
+        "id": "adding-new-customer-validation;user-should-be-able-to-add-new-customer;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2659420500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on CodeFios login page",
+            "match": {
+              "location": "AddCustomerStepDefination.user_is_on_CodeFios_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3104939000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters \"demo@codefios.com\" in username field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "demo@codefios.com",
+                  "offset": 13
+                }
+              ],
+              "location": "AddCustomerStepDefination.user_enters_in_username_field(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3123747299,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enters \"abc123\" in password field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "abc123",
+                  "offset": 13
+                }
+              ],
+              "location": "AddCustomerStepDefination.user_enters_in_password_field(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 22674384200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User clicks on the Sighin key",
+            "match": {
+              "location": "AddCustomerStepDefination.user_clicks_on_the_Sighin_key()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 257744100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User should land on CodeFios dashboard page",
+            "match": {
+              "location": "AddCustomerStepDefination.user_should_land_on_CodeFios_dashboard_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3065668701,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User clicks on Customer menu",
+            "match": {
+              "location": "AddCustomerStepDefination.user_clicks_on_Customer_menu()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7036676800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User clicks on Add Customer menu",
+            "match": {
+              "location": "AddCustomerStepDefination.user_clicks_on_Add_Customer_menu()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 154257600,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User should land on CodeFios Add New Customer page",
+            "match": {
+              "location": "AddCustomerStepDefination.user_should_land_on_CodeFios_Add_New_Customer_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 121227200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User enters \"cucumberJunit\" in fullname field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "cucumberJunit",
+                  "offset": 13
+                }
+              ],
+              "location": "AddCustomerStepDefination.user_enters_in_fullname_field(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 145254300,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User enters \"Apple\" in company field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Apple",
+                  "offset": 13
+                }
+              ],
+              "location": "AddCustomerStepDefination.user_enters_in_company_field(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 85703400,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User enters \"apple@aple.com\" in email field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "apple@aple.com",
+                  "offset": 13
+                }
+              ],
+              "location": "AddCustomerStepDefination.user_enters_in_email_field(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 77108901,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User enters \"55555555555\" in phone field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "55555555555",
+                  "offset": 13
+                }
+              ],
+              "location": "AddCustomerStepDefination.user_enters_in_phone_field(String)"
+            },
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 63487100,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User enters \"Home\" in address field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Home",
+                  "offset": 13
+                }
+              ],
+              "location": "AddCustomerStepDefination.user_enters_in_address_field(String)"
+            },
+            "matchedColumns": [
+              6
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 70088400,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User enters \"Paris\" in city field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Paris",
+                  "offset": 13
+                }
+              ],
+              "location": "AddCustomerStepDefination.user_enters_in_city_field(String)"
+            },
+            "matchedColumns": [
+              7
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 87492800,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User enters \"55555\" in zipCode field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "55555",
+                  "offset": 13
+                }
+              ],
+              "location": "AddCustomerStepDefination.user_enters_in_zipCode_field(String)"
+            },
+            "matchedColumns": [
+              8
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 112776100,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User enters \"France\" in country field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "France",
+                  "offset": 13
+                }
+              ],
+              "location": "AddCustomerStepDefination.user_enters_in_country_field(String)"
+            },
+            "matchedColumns": [
+              9
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2123767400,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User enters \"Lazy\" in group field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Lazy",
+                  "offset": 13
+                }
+              ],
+              "location": "AddCustomerStepDefination.user_enters_in_group_field(String)"
+            },
+            "matchedColumns": [
+              10
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 79677414700,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User clicks on the save key",
+            "match": {
+              "location": "AddCustomerStepDefination.user_clicks_on_the_save_key()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 297437401,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User should see the new inserted customer information",
+            "match": {
+              "location": "AddCustomerStepDefination.user_should_see_the_new_inserted_customer_information()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@Reg"
+          }
+        ]
+      }
+    ],
+    "name": "Adding new customer validation",
+    "description": "",
+    "id": "adding-new-customer-validation",
+    "keyword": "Feature",
+    "uri": "features/AddNewCustomer.feature"
+  }
+]
